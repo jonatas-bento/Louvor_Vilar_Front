@@ -1,0 +1,32 @@
+
+<!-- <app-Carrossel></app-Carrossel> -->
+<div class="container text-center">
+  <h3>Equipe de Louvor em Vilar Carioca</h3>
+  <p><em>Fomos criados para louvor da glória do único Deus - o Trino Deus da Bíblia!</em></p>
+  <p>Criamos esse website para condução de nossos hinos e estruturar nossos ensaios</p>
+  <br>
+  <div class="row">
+    <div class="col-sm-4">
+      <p class="text-center mb-0"><strong>Ensaios</strong></p><br>
+      <a [routerLink]="['ensaios']" routerLinkActive="router-link-active" >
+        <img src="/assets/ensaios.jpg" class="img-circle person" alt="Random Name">
+      </a>
+
+    </div>
+    <div class="col-sm-4">
+      <p class="text-center mb-0"><strong>Cantata de Páscoa</strong></p><br>
+      <a >
+        <img src="/assets/cantatas.jpg" class="img-circle person" alt="Random Name">
+      </a>
+
+    </div>
+    <div class="col-sm-4">
+      <p class="text-center mb-0"><strong>Seleção de louvores</strong></p><br>
+      <a [routerLink]="['cancoes']" routerLinkActive="router-link-active">
+        <img src="/assets/lyrics.jpg" class="img-circle person" alt="Random Name">
+      </a>
+
+    </div>
+  </div>
+
+</div>
